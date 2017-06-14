@@ -39,7 +39,7 @@ def run(init, update, view, rate=None):
         while True:
             if not (rate is None) and time.time() - previous_tick > wait:
                 previous_tick = time.time()
-                state = update('tick', state)
+                state = update('TICK', state)
                 y, x = stdscr.getmaxyx()
                 stdscr.addstr(0, 0, view(state, x, y))
             try:
