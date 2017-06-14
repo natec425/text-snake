@@ -66,6 +66,10 @@ def is_on_apple(head_x, head_y, apple_x, apple_y):
     False
     >>> is_on_apple(0, 1, 0, 1)
     True
+    >>> is_on_apple(0, 2, 0, 1)
+    False
+    >>> is_on_apple(2, 0, 1, 0)
+    False
     '''
     return False # REPLACE FUNCTION BODY WITH YOUR CODE
 
