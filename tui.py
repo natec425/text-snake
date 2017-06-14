@@ -77,7 +77,6 @@ def key_to_action(key):
     >>> key_to_action('TICK')
     'tick'
     >>> key_to_action('anything else')
-    None
     '''
     return 'tick' # REPLACE FUNCTION BODY WITH YOUR CODE
 
